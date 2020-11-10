@@ -5,9 +5,7 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![made-with-pytorch](https://img.shields.io/badge/Made%20with-Pytorch-1f425f.svg)](https://www.pytorch.org/)
 
-This repository provides the official implementation of the paper [Solving Inverse Problems With Deep Neural Networks - Robustness Included?](https://arxiv.org/abs/placehodler) by M. Genzel, J. Macdonald, and M. März (2020).
-
-_(the arxiv link is a placeholder and will be updated shortly)_
+This repository provides the official implementation of the paper [Solving Inverse Problems With Deep Neural Networks - Robustness Included?](http://arxiv.org/abs/2011.04268) by M. Genzel, J. Macdonald, and M. März (2020).
 
 ## Content
 
