@@ -3,11 +3,9 @@
 [![GitHub license](https://img.shields.io/github/license/jmaces/robust-nets)](https://github.com/jmaces/robust-nets/blob/master/LICENSE)
 [![code-style black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-[![made-with-pytorch](https://img.shields.io/badge/Made%20with-Pytorch-1f425f.svg)](https://www.pytorch.org/)
+[![made-with-pytorch](https://img.shields.io/badge/Made%20with-Pytorch-1f425f.svg)](https://pytorch.org/)
 
-This repository provides the official implementation of the paper [Solving Inverse Problems With Deep Neural Networks - Robustness Included?](https://arxiv.org/abs/placehodler) by M. Genzel, J. Macdonald, and M. März (2020).
-
-_(the arxiv link is a placeholder and will be updated shortly)_
+This repository provides the official implementation of the paper [Solving Inverse Problems With Deep Neural Networks - Robustness Included?](http://arxiv.org/abs/2011.04268) by M. Genzel, J. Macdonald, and M. März (2020).
 
 ## Content
 
@@ -44,7 +42,7 @@ The package versions are the ones we used. Other versions might work as well.
 
 ## Usage
 
-Each of the individual experiment subfolders contains configurations files as well
+Each of the individual experiment subfolders contains configuration files as well
 as scripts for preparing the data, for training the neural networks, for obtaining total variation minimization reconstructions, and for finding adversarial perturbations.
 
 The details are described within in each subfolder.
