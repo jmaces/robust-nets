@@ -448,3 +448,31 @@ _append_net(
         },
     ),
 )
+
+_append_net(
+    "Tiramisu EE",
+    {
+        "name_disp": "TiraFL w\\slash o jit",
+        "name_save": "tiramisu_ee",
+        "plt_color": "darkgreen",
+        "plt_marker": "o",
+        "plt_linestyle": (0, (3, 3, 1, 3, 1, 3)),
+        "plt_linewidth": 2.75,
+    },
+    _load_net(
+        "results/radial_50_no_fs_tiramisu_ee_noJitter_v5_train_phase_2/"
+        + "model_weights.pt",
+        Tiramisu,
+        tiramisu_params,
+        {
+            "num_iter": 1,
+            "lam": 0.0,
+            "lam_learnable": False,
+            "final_dc": False,
+            "resnet_factor": 1.0,
+            "concat_mask": False,
+            "multi_slice": False,
+            "ee": mask,
+        },
+    ),
+)
