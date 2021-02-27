@@ -11,4 +11,4 @@ multi_line_output = 3
 not_skip = "__init__.py"
 use_parentheses = true
 known_first_party = ["config_robustness_fourier", "config_robustness_radon", "config_robustness", "config", "data_management", "find_adversarial", "networks", "operators", "reconstruction_methods"]
-known_third_party = ["fastmri_utils", "h5py", "matplotlib", "numpy", "odl", "pandas", "piq", "pytorch_radon", "runstats", "skimage", "torch", "torch_cg", "torchvision", "tqdm"]
+known_third_party = ["PIL", "fastmri_utils", "h5py", "matplotlib", "numpy", "odl", "pandas", "piq", "pytorch_radon", "runstats", "skimage", "torch", "torch_cg", "torchvision", "tqdm"]
